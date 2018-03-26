@@ -1,0 +1,152 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #222;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #565656;
+    font-size: 17px;
+}
+a:hover { text-decoration: none }
+
+
+section.section-padding {
+  padding: 100px 0;
+}
+
+
+.section-title {
+  text-align: center;
+  color: #565656;
+  font-size: 17px;
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  color: #222;
+}
+
+
+.section-title h2::before {
+  bottom: 110px;
+  height: 3px;
+  width: 130px;
+  position: absolute;
+  content: "";
+  background: #FE9015;
+  margin-left: -65px;
+  left: 50%;
+}
+.section-title h2::after {
+  bottom: 110px;
+  height: 3px;
+  width: 16px;
+  position: absolute;
+  content: "";
+  background: #222222;
+  left: 50%;
+  margin-left: -8px;
+}
+
+.blog-box-bg-1{
+    background-image: url(../img/class_2.jpg);
+}
+.blog-box-bg-2{
+    background-image: url(../img/class_3.jpg);
+}
+.blog-box-bg-3{
+    background-image: url(../img/class_4.jpg);
+}
+
+
+.blog-box-bg {
+  background-position: center center;
+  height: 200px;
+  background-size: cover;
+  background-color: #ddd;
+  border: 1px solid #fdaf67;
+}
+.blog-box-bg {
+  border-bottom: 0px solid;
+}
+.blog-box-content {
+  border: 1px solid #f4f4f4;
+  padding: 20px;
+  transition: .5s ease 0s;
+  border-top: 0px solid;
+}
+.blog-box-content h3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.blog-meta span i.fa {
+  color: #fdaf67;
+  margin-right: 10px;
+}
+.blog-meta span a{
+    color: #565656;
+    font-size: 15px;
+}
+.blog-meta {
+  font-size: 14px;
+}
+.blog-meta span{
+    margin-right: 10px;
+}
+.blog-meta span:last-child{
+    margin-right: 0px;
+}
+.blog-redmore-btn {
+  background: #fd8e2e none repeat scroll 0 0;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: all 0.5s ease 0s;
+}
+.blog-redmore-btn:hover {
+  background: #333 none repeat scroll 0 0;
+  color: #fff;
+}
+.single-blog-box:hover .blog-box-content {
+  border-color: #fd8e2e;
+}
+
+
+
+
+
+
