@@ -1,0 +1,123 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+section.section-padding{
+    padding: 80px 0;
+}
+.quote-from-wrap img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.blue-quote-from {
+  background: #2ab6fb none repeat scroll 0 0;
+  margin-top: -83px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  max-height: 770px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+}
+
+.blue-quote-from h3 {
+  font-size: 26px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.blue-quote-from h3::before{
+    bottom: 0;
+    height: 1px;
+    width: 130px;
+    left: 50%;
+    position: absolute;
+    content: "";
+    background: #fff;
+    margin-left: -65px;
+}
+.blue-quote-from h3::after{
+    background: #19b5fe;
+    height: 13px;
+    width: 13px;
+    left: 50%;
+    position: absolute;
+    content: "";
+    border: 2px solid #fff;
+    bottom: -6.5px;
+    margin-left: -6.5px;
+    border-radius: 50%;
+}
+
+.blue-quote-from input,
+.blue-quote-from textarea{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #8fdafc;
+    width: 100%;
+    color: #fff;
+}
+.blue-quote-from input {
+  padding-bottom: 20px;
+}
+.blue-quote-from textarea{
+    height: 100px;
+    padding-top: 60px;
+}
+
+.blue-from-submit{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blue-from-submit
+button[type=submit]{
+    background: #fff;
+    border: none;
+    color: #2ad6fb;
+    border-radius: 3px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    
+}
+
+
+
